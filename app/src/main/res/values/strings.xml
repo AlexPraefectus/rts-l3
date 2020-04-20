@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">rst-l3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Real Time Systems</string>
+    <string name="nav_header_subtitle">Labs 3.1, 3.2, 3.3</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_l31">3.1 Fermat\'s factorisation</string>
+    <string name="menu_l32">Lab 3.2</string>
+    <string name="menu_l33">Lab 3.3</string>
+
+    <!-- l31 text vars-->
+    <string name="l31_num_hint">Number to factorise</string>
+    <string name="l31_btn_txt">Factorise</string>
+
+    <!-- l32 text vars-->
+
+    <!-- l33 text vars-->
+    <string name="home_second">Home Second</string>
+</resources>
