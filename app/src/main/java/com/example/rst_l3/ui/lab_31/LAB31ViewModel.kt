@@ -13,6 +13,8 @@ class LAB31ViewModel : ViewModel() {
     private val _factorisable = MutableLiveData<Int>().apply { value = 0; }
     private val _factorisationRes = MutableLiveData<List<Int>>()
     private val _factorisationResText = MutableLiveData<String>().apply { value = "" }
+    private val _iterationsSpent = MutableLiveData<Int>().apply { value = 0 }
+    private val iterationsSpent: LiveData<Int> = _iterationsSpent
 
     /**
      * returns true if we can set factorisable from given input, false otherwise
@@ -42,12 +44,16 @@ class LAB31ViewModel : ViewModel() {
             builder.append(i.toString())
             builder.append("\n")
         }
+        builder.append("Iterations spend:\n")
+        builder.append(iterationsSpent.value)
+        builder.append("\n")
         _factorisationResText.apply { value = builder.toString() }
     }
 
     fun factorise(){
-        val res: ArrayList<Int> = _factorisable.value?.let { factoriseFermat(it) }!!
-        _factorisationRes.apply { value = res }
+        val res = _factorisable.value?.let { factoriseFermat(it) }!!
+        _factorisationRes.apply { value = res.res }
+        _iterationsSpent.apply { value = res.iter }
         buildFactorisationResText()
     }
 

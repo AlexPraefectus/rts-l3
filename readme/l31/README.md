@@ -30,3 +30,6 @@
 #### Приклади обробки некоректного користувацього вводу
 <img src="https://raw.githubusercontent.com/AlexPraefectus/rts-l3/master/readme/l31/resources/fermat_format_error.png" width="360" height="740"/>
 <img src="https://raw.githubusercontent.com/AlexPraefectus/rts-l3/master/readme/l31/resources/fermat_sign_error.png" width="360" height="740"/>
+
+#### Додаткове завдання- висести кількість істерацій
+<img src="https://raw.githubusercontent.com/AlexPraefectus/rts-l3/master/readme/l31/resources/additional_task.png" width="360" height="740"/>
