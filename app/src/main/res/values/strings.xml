@@ -10,7 +10,7 @@
     <string name="menu_home">Home</string>
     <string name="menu_l31">3.1 Fermat\'s factorisation</string>
     <string name="menu_l32">3.2 Perceptrones</string>
-    <string name="menu_l33">Lab 3.3</string>
+    <string name="menu_l33">3.3 Genetic</string>
 
     <!-- l31 text vars-->
     <string name="l31_num_hint">Number to factorise</string>
@@ -51,5 +51,43 @@
     <string name="l32_btn_learn">Learn</string>
 
     <!-- l33 text vars-->
-    <string name="home_second">Home Second</string>
+    <string name="home_second">Genetic algorithm</string>
+
+    <string name="l33_strategies_tooltip">Mutation Strategy</string>
+    <string-array name="l33_strategies">
+        <item>roll_greatest</item>
+        <item>roll_least</item>
+    </string-array>
+
+    <string name="l33_mutations_tooltip">Mutation percent</string>
+    <string-array name="l33_mutations">
+        <item>0.01</item>
+        <item>0.05</item>
+        <item>0.10</item>
+        <item>0.20</item>
+    </string-array>
+
+    <string name="l33_samples_tooltip">Sample size</string>
+    <string-array name="l33_sample_size">
+        <item>50</item>
+        <item>100</item>
+        <item>200</item>
+        <item>1000</item>
+    </string-array>
+
+    <string-array name="l33_bounds">
+        <item>0.0|0.5</item>
+        <item>0.0|0.75</item>
+        <item>0.0|1.0</item>
+        <item>0.25|0.5</item>
+        <item>0.25|0.75</item>
+    </string-array>
+
+    <string name="l33_a_tooltip">a = </string>
+    <string name="l33_b_tooltip">b = </string>
+    <string name="l33_c_tooltip">c = </string>
+    <string name="l33_d_tooltip">d = </string>
+    <string name="l33_y_tooltip">y = </string>
+    <string name="l33_bounds_tooltip">Random bounds</string>
+    <string name="l33_button_solve">Solve</string>
 </resources>
